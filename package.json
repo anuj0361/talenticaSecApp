@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-bootstrap-typeahead": "^4.0.0-alpha.6",
     "react-dom": "^16.8.6",
+    "react-html5-camera-photo": "^1.4.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },

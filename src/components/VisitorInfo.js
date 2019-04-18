@@ -55,6 +55,10 @@ class VisitorInfo extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  onCamerClick = e => {
+    window.open("http://localhost:3000/capture",'Data','height=500,width=500')
+  }
+
   renderForm = () => {
     return (
       <div className="card text-center">
@@ -217,6 +221,11 @@ class VisitorInfo extends Component {
                 </div>
               </div>
             </div>
+            <br />
+            
+            <a href="#" className="btn btn-info btn-lg" onClick={this.onCamerClick} >
+              <span className="glyphicon glyphicon-camera"></span> Camera
+            </a>
             <br />
             <button type="submit" className="btn btn-info btn-lg btn-block">
               Submit
